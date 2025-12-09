@@ -15,6 +15,7 @@ module.exports = {
     },
     devtool: 'source-map',
     devServer: {
+        allowedHosts: 'all',
         watchFiles: ['*'],
         hot: true,
         port: process.env.PORT || 8080,
